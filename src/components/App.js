@@ -38,7 +38,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h2>Note to Self, testing</h2>
+        <h2>Note to Self</h2>
         <Form inline>
           <FormControl onChange={event => this.setState({ text: event.target.value }) } />
           {' '}
